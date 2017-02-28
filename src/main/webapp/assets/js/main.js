@@ -80,7 +80,7 @@ $(document).ready(function () {
 
 /*------------- New Chart --------------*/
 
-google.charts.load("current", {packages:['corechart']});
+google.charts.load("current", {packages:['corechart','bar']});
 google.charts.setOnLoadCallback(drawChart1);
 google.charts.setOnLoadCallback(drawChart2);
 
